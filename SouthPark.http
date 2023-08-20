@@ -1,0 +1,19 @@
+Get http://localhost:3450/
+###
+Get http://localhost:3450/API/Characters/Cartman%20Impostor
+###
+Get http://localhost:3450/API/Characters?Grade=4grado
+
+### 
+POST /API/Characters HTTP/1.1
+Host: localhost:3450
+Content-Type: application/json
+
+{
+    "name": "Eric Cartman",
+    "image": "https://static.wikia.nocookie.net/southparkla/images/c/c9/Eric.jpg",
+    "DarIMG": "gerfergergergerger"
+}
+
+###
+Get http://localhost:3450/API/Characters/Eric%20Cartman
